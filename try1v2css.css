@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    /* border: 1px solid red; */
+    background-color: #333;
+    color: #fff;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+ul li {
+    margin: 0 1rem;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.right-ul {
+    float: right;
+}
+
+.left-side {
+    border: solid red;
+    float: left;
+}
+
+.right-side {
+    width: 15%;
+    height: auto;
+    background-color: rgb(24, 188, 131);
+    padding: 10px;
+    border: 1px solid red;
+    float: right;
+}
+.rightside-block {
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: cornflowerblue;
+}
+
+.midside-block {
+    width: 15%;
+    height: auto;
+    background-color: wheat(24, 188, 131);
+    padding: 10px;
+    border: 1px solid red;
+    float: right;
+}
+
+.parent-block {
+    background-color: rgb(4, 117, 192);
+    height: auto;
+    padding: 20px;
+    display: flex;
+}
+.parent-block2 {
+    background-color: rgb(4, 117, 192);
+    height: auto;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    float: left;
+    border: solid red;
+}
+.parent-block2-2 {
+    background-color: rgb(4, 117, 192);
+    height: auto;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    border: solid red;
+    justify-content: right;
+    float: right;
+}
+
+.parent-side {
+    width: 40px;
+    height: 20px;
+    background-color: blue;
+}
+
+.midchild-block {
+    width: 15px;
+    height: 40px;
+    background-color: red;
+}
+
+.child-block {
+    height: 100px;
+    width: 200px;
+    margin: 5px;
+    background-color: brown;
+}
+.child-block2-1 {
+    display: flex; 
+    float: left;
+    height: 100px;
+    width: 100px;
+    background: brown;
+}
+.child-block2-2 {
+    display: flex;
+    float: right;
+    height: 100px;
+    width: 100px;
+    background: brown;
+    justify-content: flex-end;
+}
+#child-block3-2 {
+    background: red; 
+    width: 15%; 
+    height: 80%; 
+    margin: 20px; 
+    float: right;
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+}
+
+p.label {
+    padding: 10px;
+    color: azure
+}
+
+.blank {
+    border: 2px solid black;
+    height: 90px;
+    border-radius: 15px;
+}
+
+.barrier {
+    height: 20px;
+    width: 100%;
+    background-color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
